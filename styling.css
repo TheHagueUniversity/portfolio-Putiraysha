@@ -1,0 +1,153 @@
+/*
+COLOR PALETTE
+https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
+#971C3C - RED
+#EEEBE7 - WHITE-ISH
+#FBBD5C - YELLOW
+#48665E - GREEN
+*/
+
+
+/* Global styles
+------------------------------------*/
+html {
+    box-sizing: border-box;
+    display:grid;
+    grid-auto-columns: auto;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #006666;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+display: grid auto;
+}
+
+a {
+  color: #9DBCBC;
+text-align: center;
+}
+a:hover {
+  text-decoration: none;
+    text-align: center;
+}
+h1 {
+  font-size: 100px;
+  line-height: 1;
+    text-align: right;
+}
+h2 {
+  font-size: 45px;
+    text-align: right;
+    grid-column: auto;
+}
+h1, h2 {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+.content-wrap {
+  max-width: 800px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+h3 {
+  margin-bottom: 0;
+}
+.item-details h3 + p {
+  font-style: italic;
+}
+.item-details h3 ~ p {
+  margin: 0;
+}
+.divider > section {
+  border-bottom: 1px dashed #006666;
+  padding: 25px 0;
+}
+.divider > section:last-of-type {
+  border-bottom: none;
+}
+
+
+/* Profile
+------------------------------------*/
+header {
+  background: #EEEBE7;
+  color: #48665E;
+text-align: right;
+    
+}
+
+
+/* Projects
+------------------------------------*/
+.projects {
+  background: #6A605C;
+}
+.projects a {
+  color: #006666;
+}
+.btn {
+  color: #971C3C;
+  background: #EEEBE7;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+  display: grid;
+text-align: center;
+}
+ .btn:hover {
+  background: #48665E;
+     text-align: center;
+}
+.project-item {
+  overflow: hidden;
+}
+.project-item h3 {
+  margin-top: 0;
+}
+
+
+/* Work Experience
+------------------------------------*/
+.work-experience {
+  background: #EEEBE7;
+}
+
+
+
+/* Education
+------------------------------------*/
+.education {
+  background-image: url(../images/post-it.jpg);
+  background-size: cover;
+  background-position: top right;
+  padding-bottom: 100px;
+}
+.education p {
+  width: 60%;
+}
+
+
+/* Contact Info
+------------------------------------*/
+footer {
+  background: #48665E;
+  color: #EEEBE7;
+}
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+}
+.contact-list a {
+  padding: 15px;
+  display: inline-block;
+color: #EEEBE7;
+}
