@@ -26,7 +26,6 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   line-height: 1.5;
-display: grid auto;
 }
 
 a {
@@ -76,7 +75,7 @@ h3 {
 }
 
 
-/* Profile
+/* home/about me
 ------------------------------------*/
 header {
   background: #EEEBE7;
@@ -86,10 +85,10 @@ text-align: right;
 }
 
 
-/* Projects
+/*projects
 ------------------------------------*/
 .projects {
-  background: #6A605C;
+  background: #FBBD5C;
 }
 .projects a {
   color: #006666;
@@ -113,7 +112,12 @@ text-align: center;
 .project-item h3 {
   margin-top: 0;
 }
-
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 /* Work Experience
 ------------------------------------*/
