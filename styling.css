@@ -51,6 +51,7 @@ h1, h2 {
   font-family: 'Overpass', sans-serif;
   font-weight: 400;
   margin: 0;
+    text-align: center;
 }
 .content-wrap {
   max-width: 800px;
